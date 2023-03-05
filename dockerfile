@@ -8,4 +8,4 @@ WORKDIR src
 
 RUN python manage.py migrate
 
-CMD ["python3", "manage.py", "runserver", "--host", "0.0.0.0", "--port", "6060"]
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:6060"]
